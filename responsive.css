@@ -1,0 +1,12 @@
+
+@media screen and (max-width: 576px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-left-img{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    
+}
