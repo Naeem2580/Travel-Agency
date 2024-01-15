@@ -59,10 +59,143 @@ li >a{
     background-repeat: no-repeat;
     background-size:cover;
 
+
 }
 .header{
  align-items: center;
  text-align: center;
- padding-top: 15%;
+ padding-top: 2%;
  color: white;
+ 
+ 
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 800;
+    color: #FFF;
+}
+.description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    padding-bottom: 30px;
+}
+.input{
+    display: inline-flex;
+    gap: 20px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.input-box-1{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+select option .input-box-2{
+    padding: 10px 15px;
+    background-color: #FFF;
+}
+.fa-solid{
+    padding: 10px;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: #FF5400;
+    border: none;
+    color: #FFF;
+    break-before: 10px;
+    cursor: pointer;
+}
+
+/* Tour section */
+.tour-section{
+    max-width: 1300px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-text{
+    width: 60%;
+    
+}
+.tour-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+.primary-btn{
+    padding: 10px 15px;
+    border: none;
+    font-size: 20px;
+    background-color: #FF5400;
+    color: white;
+    border-radius: 10px;
+}
+.right-img{
+    border: 2px solid red;
+    width: 40%;
+}
+/* Grid section */
+
+
+/* Choose section */
+.choose-section{
+    max-width: 1300px;
+    margin: 70px auto;
+
+}
+.choose-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.choose-card-1{
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(35, 95, 109, 0.2);
+    background: rgba(4, 27, 33, 0.05);
+
+}
+.choose-card-2{
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(10, 74, 24, 0.05);
+}
+.choose-card-3{
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(58, 25, 175, 0.05);
+}
+/* Search-section */
+.search-section{
+    max-width: 1300px;
+    margin: 50px auto;
+    display: flex;
+    gap: 20px;
+}
+.search{
+    padding: 40px;
+    width: 40%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.img{
+    width: 60%;
+    
+}
+.img img{
+    width: 100%;
+}
+
+/* footer */
+.footer{
+    height: 300px;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    padding: 30px;
 }

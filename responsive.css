@@ -1,6 +1,8 @@
 
 @media screen and (max-width: 576px){
-    nav{
+    nav,
+    .tour-section,
+    .search-section{
         flex-direction: column;
     }
     .nav-left-img{
@@ -8,5 +10,26 @@
         flex-direction: column;
         
     }
+    .nav-right-text {
+        width: 100%;
+        flex-direction:column;
+    }
+    .header-section{
+        background-image: 100%;
+        background-size: cover;
+    }
+    .input{
+        flex-direction: column;
+        width: 200px;
+    }
+    .search{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+   
     
+    
+   
 }
