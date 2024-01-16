@@ -1,10 +1,11 @@
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 580px){
     
     .tour-section,
     .search-box,
     nav,
-    .img-container{
+    .img-container,
+    .choose-content{
         flex-direction: column;
     }
     .nav-left-img{
@@ -29,13 +30,21 @@
         height: 100%;
     }
     .img-container{
-        grid-column: 1fr;
+       
         
     }
-   
+    .footer{
+        margin-bottom: 30px;
+    }
+    .choose-card-3{
+      width: 50px;
+    }
+    
+      
    
    
     
     
    
 }
+
