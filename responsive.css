@@ -5,13 +5,19 @@
     .search-box,
     nav,
     .img-container,
-    .choose-content{
+    .choose-content,
+    .container{
         flex-direction: column;
     }
     .nav-left-img{
         width: 100%;
         flex-direction: column;
-        
+        display: flex;   
+    }
+    .nav-right-text{
+        flex-direction: column;
+        width: 100%;
+        margin-right: 150px; 
     }
   
     .header-section{
@@ -20,7 +26,7 @@
     }
     .input{
         flex-direction: column;
-        width: 200px;
+        width: 250px;
     }
     .search{
         width: 100%;
@@ -37,9 +43,23 @@
         margin-bottom: 30px;
     }
     .choose-card-3{
-      width: 50px;
+      width: 100%;
+      
     }
-    
+    .video-section{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .text-section{
+        width: 100%;
+        margin-left: 30px;
+        
+    }
+    .padding{
+        width: 10px;
+        width: 5px;
+        margin-left: 1px;
+    }
       
    
    

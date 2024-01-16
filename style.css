@@ -33,6 +33,7 @@ nav{
 }
 .nav-right-text{
     width: 50%;
+    
 }
 .nav-right-text > ul{
     display: flex;
@@ -146,9 +147,8 @@ select option .input-box-2{
     width: 40%;
 }
 /* Gallery section */
-.gallery-section{
-  
-}
+
+
 .container{
     max-width:1200px;
     margin: 50px auto;
@@ -245,14 +245,71 @@ select option .input-box-2{
 
 .choose-card-3{
     margin-top: 30px;
-    width: 550px;
+    width: 480px;
     padding: 20px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(58, 25, 175, 0.05);
     
 }
+/* video-section */
+.video{
+    max-width: 1200px;
+    margin: 80px auto;
+}
+.video-section{
+    width: 50%;
+    background-image: url(./images/Group\ 40089.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.video-section h1{
+    text-align: center;
+    font-size: 30px;
+    color: #FFF;
+    padding-top: 150px;
+}
+.text-section{
+    width: 50%;
+    
+}
+.btn{
+    margin-top: 20px;
+}
+.title{
+    font-size: 25px;
+    font-weight: 800;
+    color: #131318;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    color: #FFF;
+}
+.icon-1{
+    margin-top: 70px;
+}
+.icon-2{
+    margin-top: 70px;
+    
+}
+.padding{
+    width: 500px;
+    height: 5px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    border: 3px solid red;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 10px;
+}
 /* Search-section */
+.container{
+    display: flex;
+    background-repeat: no-repeat;
+}
 .search-section{
     max-width: 1200px;
     margin: 50px auto;
