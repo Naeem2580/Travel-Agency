@@ -38,11 +38,14 @@ nav{
 .nav-right-text > ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 ul > li{
+    
     list-style: none;
 }
 li >a{
+  
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
@@ -51,13 +54,8 @@ li >a{
 .span{
     color: #FF5400;
 }
-.fa-sharp{
-    font-size: 20px;
-    cursor: pointer;
-    z-index: 10001;
-     margin-right: 10px;
-    color: black;
-}
+
+
 /* Header section */
 .header-section{
     background-image:url(./images/Group\ 13\ \(1\)\ \(1\).png);
@@ -115,6 +113,7 @@ select option .input-box-2{
     color: #FFF;
     break-before: 10px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 /* Tour section */
@@ -157,7 +156,7 @@ select option .input-box-2{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3,1fr);
-    gap: 2px;
+    gap: 10px;
 }
 .title-t{
     text-align: center;
@@ -170,9 +169,11 @@ select option .input-box-2{
 }
 .gallery-1{
     grid-column: 1/span 6;
+    
 }
 .gallery-2{
-    grid-column: 7/span 13;
+    grid-column: 7/span 7;
+    
     
 }
 .gallery-3{
@@ -185,7 +186,7 @@ select option .input-box-2{
     
 }
 .gallery-5{
-    grid-column: 11/span 13;
+    grid-column: 11/span 3;
     
 }
 .gallery-6{
@@ -193,15 +194,61 @@ select option .input-box-2{
     
 }
 .gallery-7{
-    grid-column: 6/span 13;
+    grid-column: 6/span 8;
     
 }
+
 .img-container img{
     width: 99%;
     height: 100%;
     margin-top: 40px;
     
 }
+.img-container .country{
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFF;
+    position: relative;
+    margin-top: -35%;
+    margin-left: 30%;
+}
+.country-3{
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFF;
+    position: relative;
+    margin-top: -47%;
+    margin-left: 20%;
+
+}
+.country-5{
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFF;
+    position: relative;
+    margin-top: -100%;
+    margin-left: 10%;
+
+}
+.country-6{
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFF;
+    position: relative;
+    margin-top: -43%;
+    margin-left: 10%;
+
+}
+.country-7{
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFF;
+    position: relative;
+    margin-top: -35%;
+    margin-left: 25%;
+
+}
+
 
 
 /* Choose section */
@@ -219,6 +266,7 @@ select option .input-box-2{
     color: #FF5400;
 }
 .choose-card-1{
+    width: 46%;
     padding: 20px;
     border-radius: 16px;
     border: 1px solid rgba(35, 95, 109, 0.2);
@@ -237,6 +285,7 @@ select option .input-box-2{
 }
 
 .choose-card-2{
+    width: 46%;
     padding: 20px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -251,7 +300,9 @@ select option .input-box-2{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(58, 25, 175, 0.05);
     
+    
 }
+
 /* video-section */
 .video{
     max-width: 1200px;
@@ -362,8 +413,8 @@ select option .input-box-2{
     position: relative;
     
 }
-.img img{
-    width: 100%;
+.img-p img{
+    
     
 }
 .div{
@@ -374,11 +425,13 @@ select option .input-box-2{
    align-items: center;
    text-align: center;
    width: 200px;
-   padding: 20px;
+   height: 100px;
+   padding: 10px;
    position: absolute;
-   margin-top: -13%;
-   margin-left: 25%;
+   margin-top: -9.7%;
+   margin-left: 26%;
    transform: rotate(-10deg);
+   border-radius: 10px;
    
 
     
